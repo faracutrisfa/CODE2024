@@ -12,7 +12,7 @@ export default function Footer() {
                 <div className="flex flex-col items-center lg:items-start gap-7 lg:w-3/12 md:w-8/12">
                     <img src={Logo} alt="logo"/>
                     <p
-                        className="text-base font-medium leading-tight font-sans lg:mt-7">
+                        className="text-base font-medium leading-tight font-sans">
                         Sustainable Technologies for a Better World: Global Collaboration in Innovation and Creativity to Achieve the SDGs
                     </p>
                 </div>
