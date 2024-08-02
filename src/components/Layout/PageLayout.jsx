@@ -1,12 +1,14 @@
 import Navbar from "../Navbar"
 import Footer from "../Footer"
 
-const PageLayout = ({children}) => {
+const PageLayout = ({ children }) => {
   return (
-    <div className="">
-        <Navbar/>
+    <div className="font-MadeMirage">
+      <Navbar />
+      <div className="mt-20">
         {children}
-        <Footer/>
+      </div>
+      <Footer />
     </div>
   )
 }
