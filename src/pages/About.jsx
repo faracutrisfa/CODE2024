@@ -1,7 +1,17 @@
-import "../../src/index.css";
+import Procedure from "../components/AboutPage/Procedure";
+import Theme from "../components/AboutPage/Theme";
+import Award from "../components/Award";
+import Timeline from "../components/Timeline";
+import WhatAbstract from "../components/WhatAbstract";
 
 export default function About() {
     return(
-        <div className="font-MadeMirage font-bold flex justify-center">ABOUT</div>
+        <section>
+            <Theme />
+            <WhatAbstract />
+            <Procedure />
+            <Timeline />
+            <Award />
+        </section>
     )
 }

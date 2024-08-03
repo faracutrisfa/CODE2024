@@ -35,7 +35,7 @@ export default function Navbar() {
     };
 
     return (
-        <nav className={`px-5 lg:px-18 flex w-full top-0 items-center justify-between fixed duration-300 ${isScrolled ? " bg-primary-90 shadow-lg" : "bg-primary-90"}`}>
+        <nav className={`px-5 lg:px-18 flex w-full top-0 items-center justify-between fixed duration-300 ${isScrolled ? "bg-primary-90" : "bg-primary-90"}`}>
             <img src={Logo} alt="logo" />
             <ul className="hidden lg:flex text-secondary-90 gap-18 lg:text-xl font-medium leading-normal">
                 <Link to="/" onClick={handleLinkClick}>

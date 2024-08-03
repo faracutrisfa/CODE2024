@@ -46,7 +46,7 @@ export default function Footer() {
                 <hr className="mb-4" />
                 <a
                     href="https://bit.ly/m/PIT-CODE-2024"
-                    className="flex justify-center font-sans lg:text-base lg:leading-tight leading-3 text-xs"
+                    className="flex justify-center text-center font-sans lg:text-base lg:leading-tight leading-normal text-xs"
                     target="_blank">
                     © Mufida, Cut Risfa, Natha, Alya, Jason. All Right Reserved.
                 </a>
