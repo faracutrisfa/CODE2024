@@ -32,7 +32,7 @@ export default function Hero() {
                     backgroundRepeat: "no-repeat"
                 }}
             >
-                <div className="flex flex-col justify-center text-primary-50 gap-4 md:gap-5 mx-5 lg:mx-18 w-8/12 pt-16 pb-40 md:pb-80">
+                <div className="flex flex-col justify-center text-primary-50 gap-4 md:gap-5 mx-5 lg:mx-18 w-8/12 pt-16 pb-64 md:pb-[330px]">
                     <img src={StarsPathWhite} className="w-11" />
                     <h1 className="font-bold leading-[28.80px] text-2xl md:text-3xl">Competition of Outstanding Creativity and Exploration (CODE)</h1>
                     <p className="font-medium leading-[14.40px] text-xs md:text-sm">Sustainable Technologies for a Better World: Global Collaboration in Innovation and Creativity to Achieve the SDGs</p>
