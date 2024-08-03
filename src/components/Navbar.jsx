@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RiArrowRightSLine } from "react-icons/ri";
@@ -13,6 +13,7 @@ export default function Navbar() {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
     const [isScrolled, setIsScrolled] = useState(false);
+    const location = useLocation();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -39,19 +40,19 @@ export default function Navbar() {
             <img src={Logo} alt="logo" />
             <ul className="hidden lg:flex text-secondary-90 gap-18 lg:text-xl font-medium leading-normal">
                 <Link to="/" onClick={handleLinkClick}>
-                    <li className="">Home</li>
+                    <li className={`${location.pathname === "/" ? "border-b-2 border-secondary-90" : ""}`}>Home</li>
                 </Link>
                 <Link to="/About" onClick={handleLinkClick}>
-                    <li className="">About</li>
+                    <li className={`${location.pathname === "/About" ? "border-b-2 border-secondary-90" : ""}`}>About</li>
                 </Link>
                 <Link to="/Register" onClick={handleLinkClick}>
-                    <li className="">Register Now</li>
+                    <li className={`${location.pathname === "/Register" ? "border-b-2 border-secondary-90" : ""}`}>Register Now</li>
                 </Link>
                 <Link to="/Contact" onClick={handleLinkClick}>
-                    <li className="">Contact Us</li>
+                    <li className={`${location.pathname === "/Contact" ? "border-b-2 border-secondary-90" : ""}`}>Contact Us</li>
                 </Link>
                 <Link to="/FAQ" onClick={handleLinkClick}>
-                    <li className="">FAQ</li>
+                    <li className={`${location.pathname === "/FAQ" ? "border-b-2 border-secondary-90" : ""}`}>FAQ</li>
                 </Link>
             </ul>
 
@@ -72,25 +73,24 @@ export default function Navbar() {
                     <ul className="flex flex-col items-start text-primary-50 gap-8 font-sans mt-18 text-base font-medium leading-tight">
                         <Link to="/" onClick={handleLinkClick} className="flex items-center gap-5">
                             <LuHome size={24} />
-                            <li className="">Home</li>
+                            <li className={`${location.pathname === "/" ? "border-b-2 border-primary-50" : ""}`}>Home</li>
                         </Link>
                         <Link to="/About" onClick={handleLinkClick} className="flex items-center gap-5">
                             <IoMdInformationCircleOutline size={25} />
-                            <li className="">About</li>
+                            <li className={`${location.pathname === "/About" ? "border-b-2 border-primary-50" : ""}`}>About</li>
                         </Link>
                         <Link to="/Register" onClick={handleLinkClick} className="flex items-center gap-5">
                             <SlNote size={24} />
-                            <li className="">Register Now</li>
+                            <li className={`${location.pathname === "/Register" ? "border-b-2 border-primary-50" : ""}`}>Register Now</li>
                         </Link>
                         <Link to="/Contact" onClick={handleLinkClick} className="flex items-center gap-5">
                             <IoChatboxOutline size={24} />
-                            <li className="">Contact Us</li>
+                            <li className={`${location.pathname === "/Contact" ? "border-b-2 border-primary-50" : ""}`}>Contact Us</li>
                         </Link>
                         <Link to="/FAQ" onClick={handleLinkClick} className="flex items-center gap-5">
                             <GoQuestion size={24} />
-                            <li className="">FAQ</li>
+                            <li className={`${location.pathname === "/FAQ" ? "border-b-2 border-primary-50" : ""}`}>FAQ</li>
                         </Link>
-
                     </ul>
                 </div>
             </div>
