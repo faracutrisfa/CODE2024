@@ -36,7 +36,7 @@ export default function Navbar() {
     };
 
     return (
-        <nav className={`px-5 lg:px-18 flex w-full top-0 items-center justify-between fixed duration-300 ${isScrolled ? "bg-primary-90" : "bg-primary-90"}`}>
+        <nav className={`px-5 lg:px-18 flex w-full top-0 items-center justify-between fixed duration-300 z-10 ${isScrolled ? "bg-primary-90" : "bg-primary-90"}`}>
             <img src={Logo} alt="logo" />
             <ul className="hidden lg:flex text-secondary-90 gap-18 lg:text-xl font-medium leading-normal">
                 <Link to="/" onClick={handleLinkClick}>
@@ -48,10 +48,10 @@ export default function Navbar() {
                 <Link to="/Register" onClick={handleLinkClick}>
                     <li className={`${location.pathname === "/Register" ? "border-b-2 border-secondary-90" : ""}`}>Register Now</li>
                 </Link>
-                <Link to="/Contact" onClick={handleLinkClick}>
+                <Link to="https://wa.me/6282332648369" target="_blank" onClick={handleLinkClick}>
                     <li className={`${location.pathname === "/Contact" ? "border-b-2 border-secondary-90" : ""}`}>Contact Us</li>
                 </Link>
-                <Link to="/FAQ" onClick={handleLinkClick}>
+                <Link to="https://www.instagram.com/code.ub/" target="_blank" onClick={handleLinkClick}>
                     <li className={`${location.pathname === "/FAQ" ? "border-b-2 border-secondary-90" : ""}`}>FAQ</li>
                 </Link>
             </ul>

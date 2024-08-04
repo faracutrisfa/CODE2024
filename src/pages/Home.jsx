@@ -4,14 +4,14 @@ import Timeline from "../components/Timeline"
 import Award from "../components/Award"
 import Partner from "../components/LandingPage/Partner"
 import WhatsCode from "../components/LandingPage/WhatsCode"
-import paperTop from "../assets/cover/paperTop.png"
+import coverAbout from "../assets/cover/coverAbout.png"
 
 export default function Home() {
     return (
         <section>
             <div
                 style={{
-                    backgroundImage: `url(${paperTop})`,
+                    backgroundImage: `url(${coverAbout})`,
                     backgroundSize: "cover",
                     backgroundPosition: "top",
                     backgroundRepeat: "no-repeat"
@@ -19,10 +19,10 @@ export default function Home() {
                 <Hero />
                 <WhatsCode />
                 <Agenda />
+                <Timeline />
+                <Award />
+                <Partner />
             </div>
-            <Timeline />
-            <Award />
-            <Partner />
         </section>
     )
 }
