@@ -3,13 +3,13 @@ import Theme from "../components/AboutPage/Theme";
 import Award from "../components/Award";
 import Timeline from "../components/Timeline";
 import WhatAbstract from "../components/WhatAbstract";
-import coverAbout from "../assets/cover/coverAbout.png"
+import coverRegister from "../assets/cover/coverRegister.png"
 
 export default function About() {
     return (
         <section
             style={{
-                backgroundImage: `url(${coverAbout})`,
+                backgroundImage: `url(${coverRegister})`,
                 backgroundSize: "cover",
                 backgroundPosition: "top",
                 backgroundRepeat: "no-repeat"
