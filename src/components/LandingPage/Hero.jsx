@@ -13,7 +13,7 @@ export default function Hero() {
                         <h1 className="font-bold tracking-wide leading-[57.60px] xl:text-5xl lg:text-4xl md:text-3xl">Competition of Outstanding Creativity and Exploration (CODE)</h1>
                         <p className="font-medium tracking-wide leading-[28.80px] xl:text-2xl lg:text-xl">Sustainable Technologies for a Better World: Global Collaboration in Innovation and Creativity to Achieve the SDGs</p>
                         <a
-                            href=""
+                            href="https://wa.me/6282332648369" target="blank"
                             className="font-Metropolis md:text-base w-48 h-11 justify-center flex items-center text-primary-50 font-semibold leading-tight border rounded-3xl bg-secondary-90 border-secondary-90">
                             Contact Us
                         </a>
@@ -37,7 +37,7 @@ export default function Hero() {
                     <h1 className="font-bold tracking-wider leading-[28.80px] text-2xl md:text-3xl">Competition of Outstanding Creativity and Exploration (CODE)</h1>
                     <p className="font-normal tracking-wider leading-[14.40px] text-xs md:text-sm">Sustainable Technologies for a Better World: Global Collaboration in Innovation and Creativity to Achieve the SDGs</p>
                     <a
-                        href=""
+                        href="https://wa.me/6282332648369" target="blank"
                         className="font-Metropolis text-xs md:text-sm w-36 h-12 justify-center flex items-center text-secondary-90 font-semibold leading-tight border rounded-3xl bg-primary-50 border-primary-50">
                         Contact Us
                     </a>
