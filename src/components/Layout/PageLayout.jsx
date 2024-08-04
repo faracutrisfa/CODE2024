@@ -5,7 +5,7 @@ const PageLayout = ({ children }) => {
   return (
     <div className="font-MadeMirage">
       <Navbar />
-      <div className="mt-16">
+      <div className="mt-20">
         {children}
       </div>
       <Footer />

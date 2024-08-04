@@ -18,8 +18,8 @@ export default function Home() {
                 }}>
                 <Hero />
                 <WhatsCode />
+                <Agenda />
             </div>
-            <Agenda />
             <Timeline />
             <Award />
             <Partner />
