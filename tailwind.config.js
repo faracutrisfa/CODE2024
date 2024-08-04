@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         MadeMirage: ["MadeMirage", "sans-serif"],
+        Metropolis: ["Metropolis", "sans-serif"],
       },
       colors: {
         "primary-10": "#FEFEFE",

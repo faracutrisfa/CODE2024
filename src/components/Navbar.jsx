@@ -70,7 +70,7 @@ export default function Navbar() {
                         </button>
                     </div>
 
-                    <ul className="flex flex-col items-start text-primary-50 gap-8 font-sans mt-18 text-base font-medium leading-tight">
+                    <ul className="flex flex-col items-start text-primary-50 gap-8 font-Metropolis mt-18 text-base font-medium leading-tight">
                         <Link to="/" onClick={handleLinkClick} className="flex items-center gap-5">
                             <LuHome size={24} />
                             <li className={`${location.pathname === "/" ? "border-b-2 border-primary-50" : ""}`}>Home</li>

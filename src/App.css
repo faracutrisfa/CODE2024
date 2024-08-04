@@ -1,35 +1,164 @@
 @font-face {
-    font-family: 'MadeMirage';
-    src: url('/MadeMirage/MADE Mirage Black PERSONAL USE.otf') format('opentype');
-    font-weight: 900; /* Black */
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'MadeMirage';
-    src: url('/MadeMirage/MADE Mirage Bold PERSONAL USE.otf') format('opentype');
-    font-weight: 700; /* Bold */
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'MadeMirage';
-    src: url('/MadeMirage/MADE Mirage Medium PERSONAL USE.otf') format('opentype');
-    font-weight: 500; /* Medium */
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'MadeMirage';
-    src: url('/MadeMirage/MADE Mirage Regular PERSONAL USE.otf') format('opentype');
-    font-weight: 400; /* Regular */
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'MadeMirage';
-    src: url('/MadeMirage/MADE Mirage Thin PERSONAL USE.otf') format('opentype');
-    font-weight: 300; /* Thin */
-    font-style: normal;
-  }
-  
+  font-family: "MadeMirage";
+  src: url("/MadeMirage/MADE Mirage Black PERSONAL USE.otf") format("opentype");
+  font-weight: 900; /* Black */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MadeMirage";
+  src: url("/MadeMirage/MADE Mirage Bold PERSONAL USE.otf") format("opentype");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MadeMirage";
+  src: url("/MadeMirage/MADE Mirage Medium PERSONAL USE.otf") format("opentype");
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MadeMirage";
+  src: url("/MadeMirage/MADE Mirage Regular PERSONAL USE.otf")
+    format("opentype");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MadeMirage";
+  src: url("/MadeMirage/MADE Mirage Thin PERSONAL USE.otf") format("opentype");
+  font-weight: 300; /* Thin */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/Metropolis/Metropolis-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/Metropolis/Metropolis-BlackItalic.otf") format("opentype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/Metropolis/Metropolis-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/Metropolis/Metropolis-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/Metropolis/Metropolis-ExtraBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/Metropolis/Metropolis-ExtraBoldItalic.otf")
+    format("opentype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/Metropolis/Metropolis-ExtraLight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/Metropolis/Metropolis-ExtraLightItalic.otf")
+    format("opentype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/Metropolis/Metropolis-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/Metropolis/Metropolis-LightItalic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/Metropolis/Metropolis-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/Metropolis/Metropolis-MediumItalic.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/Metropolis/Metropolis-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/Metropolis/Metropolis-RegularItalic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/Metropolis/Metropolis-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/Metropolis/Metropolis-SemiBoldItalic.otf")
+    format("opentype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/Metropolis/Metropolis-Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/Metropolis/Metropolis-ThinItalic.otf") format("opentype");
+  font-weight: 100;
+  font-style: italic;
+}

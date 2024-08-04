@@ -12,13 +12,13 @@ export default function Footer() {
                 <div className="flex flex-col items-center lg:items-start gap-7 lg:w-3/12 md:w-8/12">
                     <img src={Logo} alt="logo"/>
                     <p
-                        className="text-base font-medium leading-tight font-sans">
+                        className="text-base font-medium leading-tight font-Metropolis">
                         Sustainable Technologies for a Better World: Global Collaboration in Innovation and Creativity to Achieve the SDGs
                     </p>
                 </div>
                 <ul>
                     <h1 className="font-bold text-2xl leading-7 mb-4">Pages</h1>
-                    <div className="text-sm lg:text-base font-medium leading-tight font-sans gap-4 flex flex-col">
+                    <div className="text-sm lg:text-base font-medium leading-tight font-Metropolis gap-4 flex flex-col">
                         <Link to="/"><li>Home</li></Link>
                         <Link to="/About"><li>About</li></Link>
                         <Link to="/Register"><li>Register Now</li></Link>
@@ -28,7 +28,7 @@ export default function Footer() {
                 </ul>
                 <div>
                     <h1 className="font-bold text-2xl leading-7 mb-4">Contact Us</h1>
-                    <div className="text-sm lg:text-base font-medium leading-tight font-sans flex flex-col gap-4">
+                    <div className="text-sm lg:text-base font-medium leading-tight font-Metropolis flex flex-col gap-4">
                         <a href="https://wa.me/6282332648369" target="blank">Contact 1: +62 823-3264-8369</a>
                         <a href="https://wa.me/6283119411817" target="blank">Contact 2: +62 831-1941-1817</a>
                     </div>
@@ -46,7 +46,7 @@ export default function Footer() {
                 <hr className="mb-4" />
                 <a
                     href="https://bit.ly/m/PIT-CODE-2024"
-                    className="flex justify-center text-center font-sans lg:text-base lg:leading-tight leading-normal text-xs"
+                    className="flex justify-center text-center font-Metropolis lg:text-base lg:leading-tight leading-normal text-xs"
                     target="_blank">
                     © Mufida, Cut Risfa, Natha, Alya, Jason. All Right Reserved.
                 </a>
