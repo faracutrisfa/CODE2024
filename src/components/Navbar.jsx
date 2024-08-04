@@ -48,10 +48,10 @@ export default function Navbar() {
                 <Link to="/Register" onClick={handleLinkClick}>
                     <li className={`${location.pathname === "/Register" ? "border-b-2 border-secondary-90" : ""}`}>Register Now</li>
                 </Link>
-                <Link to="/Contact" onClick={handleLinkClick}>
+                <Link to="https://wa.me/6282332648369" target="_blank" onClick={handleLinkClick}>
                     <li className={`${location.pathname === "/Contact" ? "border-b-2 border-secondary-90" : ""}`}>Contact Us</li>
                 </Link>
-                <Link to="/FAQ" onClick={handleLinkClick}>
+                <Link to="https://www.instagram.com/code.ub/" target="_blank" onClick={handleLinkClick}>
                     <li className={`${location.pathname === "/FAQ" ? "border-b-2 border-secondary-90" : ""}`}>FAQ</li>
                 </Link>
             </ul>
