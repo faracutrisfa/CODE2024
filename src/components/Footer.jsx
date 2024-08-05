@@ -22,8 +22,8 @@ export default function Footer() {
                         <Link to="/"><li>Home</li></Link>
                         <Link to="/About"><li>About</li></Link>
                         <Link to="/Register"><li>Register Now</li></Link>
-                        <Link to="/Contact"><li>Contact Us</li></Link>
-                        <Link to="/FAQ"><li>FAQ</li></Link>
+                        <Link to="https://wa.me/6282332648369" target="_blank"><li>Contact Us</li></Link>
+                        <Link to="https://www.instagram.com/code.ub/" target="_blank"><li>FAQ</li></Link>
                     </div>
                 </ul>
                 <div>
