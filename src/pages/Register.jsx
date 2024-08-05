@@ -1,8 +1,8 @@
 import HeroRegister from "../components/RegisterPage/HeroRegister"
 import WhatAbstract from "../components/WhatAbstract"
 import Requirement from "../components/RegisterPage/Requirement"
-import Procedure from "../components/RegisterPage/Procedure"
 import coverRegister from "../assets/cover/coverRegister.png"
+import ProcedureRegistration from "../components/RegisterPage/ProcedureRegistration"
 
 export default function Register() {
     return (
@@ -16,7 +16,7 @@ export default function Register() {
             <HeroRegister />
             <WhatAbstract />
             <Requirement />
-            <Procedure />
+            <ProcedureRegistration />
         </section>
     )
 }

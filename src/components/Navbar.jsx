@@ -83,11 +83,11 @@ export default function Navbar() {
                             <SlNote size={24} />
                             <li className={`${location.pathname === "/Register" ? "border-b-2 border-primary-50" : ""}`}>Register Now</li>
                         </Link>
-                        <Link to="/Contact" onClick={handleLinkClick} className="flex items-center gap-5">
+                        <Link to="https://wa.me/6282332648369" target="_blank" onClick={handleLinkClick} className="flex items-center gap-5">
                             <IoChatboxOutline size={24} />
                             <li className={`${location.pathname === "/Contact" ? "border-b-2 border-primary-50" : ""}`}>Contact Us</li>
                         </Link>
-                        <Link to="/FAQ" onClick={handleLinkClick} className="flex items-center gap-5">
+                        <Link to="https://www.instagram.com/code.ub/" target="_blank" onClick={handleLinkClick} className="flex items-center gap-5">
                             <GoQuestion size={24} />
                             <li className={`${location.pathname === "/FAQ" ? "border-b-2 border-primary-50" : ""}`}>FAQ</li>
                         </Link>
