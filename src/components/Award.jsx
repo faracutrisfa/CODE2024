@@ -3,8 +3,8 @@ import paperBlueLight from "../assets/cover/paperBlueLight.svg";
 
 const Award = () => {
   return (
-    <div className="bg-paper-blue-light w-full md:h-[60rem] h-auto my-36 bg-center lg:bg-cover bg-no-repeat self-stretch">
-      <div className="flex flex-col items-start justify-start px-8 pt-16 md:px-24 md:pt-24">
+    <div className="bg-paper-blue-light w-full md:h-[60rem] h-auto my-36 lg:bg-cover bg-no-repeat self-stretch">
+      <div className="flex flex-col items-start justify-start md:justify-center md:items-center px-8 pt-16 md:px-24 md:pt-24">
         <h1 className="font-MadeMirage text-4xl lg:text-6xl leading-[120%] text-primary-50 font-bold self-stretch">
           Award of Participations
         </h1>
@@ -12,7 +12,7 @@ const Award = () => {
           Join the competition and win some great prizes!
         </h6>
 
-        <div className="flex flex-col lg:flex-row items-center justify-center md:gap-x-4 px-auto mb-4 gap-4 md:gap-8 lg:gap-4">
+        <div className="flex flex-col lg:flex-row items-center justify-center md:gap-x-4  mb-4 gap-4 md:gap-8 lg:gap-4">
           <div className="border-4 border-secondary-50 rounded-[2rem] w-[20rem] md:w-[30rem] h-[16rem] lg:w-[40rem] lg:h-[34.5rem] p-3 flex flex-col items-center gap-2 flex-shrink-0 self-stretch">
             <div
               className="border bg-money-mobile md:bg-cover md:bg-money bg-no-repeat w-full h-full flex flex-col justify-center items-center gap-2 flex-shrink-0 rounded-[2rem]"
@@ -34,7 +34,7 @@ const Award = () => {
               ></div>
             </div>
 
-            <div className="border-4 border-secondary-50 rounded-[2rem] w-[20rem] md:w-[30rem] h-[11rem] lg:w-[40rem] lg:h-[16rem] p-3  flex flex-col items-center gap-2 flex-shrink-0 self-stretch">
+            <div className="border-4 border-secondary-50 rounded-[2rem] w-[20rem] md:w-[30rem] h-[11rem] lg:w-[40rem] lg:h-[16rem] p-3 flex flex-col items-center gap-2 flex-shrink-0 self-stretch">
               <div
                 className="border bg-medal-mobile md:bg-medal bg-cover bg-no-repeat bg-center w-full h-full flex flex-col justify-center items-center gap-2 flex-shrink-0 rounded-[2rem]"
                 style={{

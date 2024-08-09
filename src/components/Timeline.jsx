@@ -24,7 +24,7 @@ const events2 = [
 ];
 
 const totalEvents = events2.length;
-const displayLimit = totalEvents - 2; 
+const displayLimit = totalEvents - 2;
 
 const Timeline = () => {
   return (
@@ -50,23 +50,20 @@ const Timeline = () => {
                 : "justify-end lg:pr-20"
             } w-full`}
           >
-            {index !== 4 && index !== 5 && (
-              <>
-                {index % 2 === 0 && (
-                  <img
-                    className="absolute top-72 h-[32rem] w-[18rem] left-0"
-                    src={layer2Left}
-                    alt="Layer Left"
-                  />
-                )}
-                {index % 2 !== 0 && (
-                  <img
-                    className="absolute top-72 h-[32rem] w-[18rem] right-0"
-                    src={layer2Right}
-                    alt="Layer Right"
-                  />
-                )}
-              </>
+            {index < displayLimit && index % 2 === 0 && (
+              <img
+                className="absolute top-72 h-[32rem] w-[18rem] left-0"
+                src={layer2Left}
+                alt="Layer Left"
+              />
+            )}
+
+            {index < displayLimit && index % 2 !== 0 && (
+              <img
+                className="absolute top-72 h-[32rem] w-[18rem] right-0"
+                src={layer2Right}
+                alt="Layer Right"
+              />
             )}
 
             <div className=" border-4 border-secondary-50 rounded-[2rem] w-[34rem] p-3 flex flex-col items-start gap-2 ">
