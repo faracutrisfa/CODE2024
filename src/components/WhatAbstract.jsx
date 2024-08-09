@@ -36,12 +36,12 @@ export default function WhatAbstract() {
             to read the entire document.
           </p>
           <div className="flex justify-center lg:justify-start items-center gap-12 lg:gap-5">
-            <button className="bg-primary-50 rounded-[4rem] text-secondary-90 text-center font-Metropolis leading-5 text-sm lg:text-md font-semibold py-2 lg:py-3 px-8 lg:px-16 flex justify-center items-center hover:bg-secondary-70 hover:text-primary-50">
+            <a href="https://drive.google.com/drive/folders/15PghpvgzbzGSTqZBMyzbHdY1Er-kmIt3" target="blank" className="bg-primary-50 rounded-[4rem] text-secondary-90 text-center font-Metropolis leading-5 text-sm lg:text-md font-semibold py-2 lg:py-3 px-8 lg:px-16 flex justify-center items-center hover:bg-secondary-70 hover:text-primary-50">
               Guidebook
-            </button>
-            <button className="bg-primary-50 rounded-[4rem] text-secondary-90 text-center font-Metropolis leading-5 text-sm lg:text-md font-semibold py-2 lg:py-3 px-8 lg:px-16 flex justify-center items-center hover:bg-secondary-70 hover:text-primary-50">
+            </a>
+            <a href="https://bit.ly/m/CODE2024" target="blank" className="bg-primary-50 rounded-[4rem] text-secondary-90 text-center font-Metropolis leading-5 text-sm lg:text-md font-semibold py-2 lg:py-3 px-8 lg:px-16 flex justify-center items-center hover:bg-secondary-70 hover:text-primary-50">
               Register Now
-            </button>
+            </a>
           </div>
         </div>
       </div>

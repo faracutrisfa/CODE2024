@@ -11,10 +11,10 @@ export default function Procedure() {
                             <h2 className="font-bold text-xl leading-normal lg:text-4xl lg:leading-[48px]">Team Registrations and Abstract Submission</h2>
                             <div className="font-normal text-xs leading-[14px] lg:text-3xl lg:leading-[38.40px] flex flex-col gap-3 lg:gap-0">
                                 <li> Abstract submission are free of charge and team’s leader can register and submit abstracts online via (
-                                    <span className="text-[#2ba6ff] underline"><a href="https" target="blank">registration and submission link</a></span>).
+                                    <span className="text-[#2ba6ff] underline"><a href="https://bit.ly/m/CODE2024" target="blank">registration and submission link</a></span>).
                                 </li>
                                 <li>The team's leader must fill out the registration form in accordance with the guidelines stated in the
-                                    <span className="text-[#2ba6ff]"><a href="f" target="blank"> guidebook</a></span>
+                                    <span className="text-[#2ba6ff]"><a href="https://drive.google.com/drive/folders/15PghpvgzbzGSTqZBMyzbHdY1Er-kmIt3" target="blank"> guidebook</a></span>
                                 </li>
                             </div>
                         </div>

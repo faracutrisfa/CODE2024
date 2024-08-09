@@ -32,8 +32,8 @@ export default {
 
       backgroundImage: {
         "paper-blue": "url('/src/assets/cover/paperBlue.png')",
-        "paper-blue-light": "url('/src/assets/cover/paperBlueLight.png')",
-        "paper-blue-light-mobile": "url('/src/assets/cover/paperBlueLightMobile.png')",
+        "paper-blue-light": "url('/src/assets/award/paperBluee.svg')",
+        "paper-blue-light-mobile": "url('/src/assets/award/paperBlueeMobile.svg')",
         "money": "url('/src/assets/award/money.svg')",
         "certificate": "url('/src/assets/award/certificate.svg')",
         "medal": "url('/src/assets/award/medal.svg')",
