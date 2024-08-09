@@ -39,7 +39,7 @@ export default function Requirement() {
 
     return (
         <section>
-            <div className="text-secondary-90 flex flex-col justify-center items-center text-center mx-5 lg:mx-18">
+            <div className="text-secondary-90 flex flex-col justify-center items-center text-center mx-5 lg:mx-20">
                 <h1 className="font-bold tracking-wide text-3xl leading-[38.40px] md:text-5xl xl:text-6xl lg:leading-[72px]">Registrant Requirement</h1>
                 <ul className="flex flex-col justify-start items-start text-start mt-8 lg:mt-12 lg:gap-5 gap-3">
                     {data.map((item, index) => (
