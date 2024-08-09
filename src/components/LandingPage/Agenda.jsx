@@ -16,15 +16,15 @@ export default function Agenda() {
           <p className="text-center font-MadeMirage text-4xl md:text-6xl font-bold leading-[3rem] lg:leading-[4.5rem] md:h-16 lg:h-24  text-primary-50 h-auto w-full lg:w-[60rem]">
             Our Main Agenda
           </p>
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-x-24 mt-8">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4 lg:gap-x-24 mt-8">
             <img
               src={Agenda1}
-              className="w-full lg:w-auto h-[450px] lg:h-[700px] object-contain"
+              className="w-[360px] md:w-[300px] lg:w-[420px] xl:w-full"
               alt="agenda1"
             />
             <img
               src={Agenda2}
-              className="w-full lg:w-auto h-[450px] lg:h-[700px] object-contain"
+              className="w-[360px] md:w-[300px] lg:w-[420px] xl:w-full"
               alt="agenda2"
             />
           </div>
