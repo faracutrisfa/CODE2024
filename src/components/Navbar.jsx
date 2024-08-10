@@ -33,6 +33,7 @@ export default function Navbar() {
 
     const handleLinkClick = () => {
         setClick(false);
+        window.scrollTo({ top: 0, behavior: "smooth" }); 
     };
 
     return (

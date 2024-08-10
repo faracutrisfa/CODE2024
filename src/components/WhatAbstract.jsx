@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function WhatAbstract() {
   return (
     <div
-      className="relative flex items-start mt-36 bg-paper-blue-abstract-2 lg:bg-paper-blue-abstract bg-contain lg:bg-no-repeat bg-center w-full h-[36rem] lg:h-[60rem] lg:bg-cover"
+      className="relative flex items-start mt-36 bg-no-repeat bg-paper-blue-abstract-2 lg:bg-paper-blue-abstract bg-contain lg:bg-no-repeat bg-center w-full h-[36rem] lg:h-[60rem] lg:bg-cover"
     >
       <div className="relative flex flex-col lg:flex-row items-center justify-evenly lg:justify-between w-full h-full px-4 lg:px-20">
         <div className="flex items-center"></div>
