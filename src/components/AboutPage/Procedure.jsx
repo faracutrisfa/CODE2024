@@ -41,8 +41,7 @@ export default function Procedure() {
                 </li>
                 <li>
                   The team's leader must fill out the registration form in
-                  accordance with the guidelines stated in the
-                  <span className="text-[#2ba6ff]">
+                  accordance with the guidelines stated in the <span className="text-[#2ba6ff]">
                     <a
                       href="https://drive.google.com/drive/folders/15PghpvgzbzGSTqZBMyzbHdY1Er-kmIt3"
                       target="blank"
