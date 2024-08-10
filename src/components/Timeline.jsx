@@ -1,4 +1,5 @@
 import React from "react";
+import AOS from 'aos';
 import star1 from "../assets/image/Group85.svg";
 import star2 from "../assets/image/Group84.svg";
 import timeline1 from "../assets/Timeline/Timeline1.svg";
@@ -29,7 +30,11 @@ const displayLimit = totalEvents - 2;
 const Timeline = () => {
   return (
     <section className="flex flex-col items-center justify-center mt-16">
-      <h1 className="flex items-center justify-center text-4xl lg:text-6xl font-bold leading-[120%] font-MadeMirage text-secondary-90 text-center mb-16">
+      <h1
+        className="flex items-center justify-center text-4xl lg:text-6xl font-bold leading-[120%] font-MadeMirage text-secondary-90 text-center mb-16"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+      >
         <img src={star2} className="hidden md:block mr-4" alt="Star Icon 2" />
         Timeline CODE 2024
         <img src={star1} className="hidden md:block ml-4" alt="Star Icon 1" />
@@ -44,11 +49,12 @@ const Timeline = () => {
         {events2.map((event, index) => (
           <div
             key={index}
-            className={`relative flex items-center justify-start h-[300px] ${
+            className={`relative flex items-center justify-start h-[300px] transition-transform duration-500 ease-in-out hover:translate-y-[-10px] ${
               index % 2 === 0
                 ? "justify-start lg:pl-20"
                 : "justify-end lg:pr-20"
             } w-full`}
+ 
           >
             {index < displayLimit && index % 2 === 0 && (
               <img
@@ -66,7 +72,7 @@ const Timeline = () => {
               />
             )}
 
-            <div className=" border-4 border-secondary-50 rounded-[2rem] w-[34rem] p-3 flex flex-col items-start gap-2 ">
+            <div className="border-4 border-secondary-50 rounded-[2rem] w-[34rem] p-3 flex flex-col items-start gap-2">
               <div className="border bg-secondary-50 h-40 flex flex-col justify-center items-center gap-2 flex-shrink-0 self-stretch rounded-2xl">
                 <div className="flex flex-col items-center justify-center">
                   <h2 className="font-MadeMirage text-[2.5rem] font-bold leading-[120%] self-stretch text-primary-50 text-center">
@@ -84,7 +90,7 @@ const Timeline = () => {
       </div>
 
       {/* Mobile */}
-      <div className=" lg:hidden relative flex flex-col items-center justify-center">
+      <div className="lg:hidden relative flex flex-col items-center justify-center">
         <img
           src={stick2}
           className="absolute top-28 left-1/2 transform -translate-x-1/2 h-[58rem] md:h-[63rem] w-full"
@@ -95,6 +101,8 @@ const Timeline = () => {
             <div
               key={index}
               className="relative border-4 border-secondary-50 rounded-[2rem] h-30 w-[20rem] md:w-[30rem] md:h-32 p-3 flex flex-col items-start gap-2 flex-shrink-0"
+              data-aos="fade-up"
+              data-aos-duration="800"
             >
               <div className="border bg-secondary-50 h-20 md:h-24 px-7 py-7 flex flex-col justify-center items-center gap-2 flex-shrink-0 self-stretch rounded-2xl">
                 <div className="flex flex-col items-center justify-center">

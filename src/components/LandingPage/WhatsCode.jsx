@@ -1,4 +1,4 @@
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 import crownPath from "../../assets/image/crownPath.svg";
 
 export default function WhatsCode() {
@@ -8,12 +8,10 @@ export default function WhatsCode() {
         <motion.img
           src={crownPath}
           className="xl:w-[700px] lg:w-[600px] w-[400px]"
-          initial={{ scale: 0.8, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ type: "spring", stiffness: 100, duration: 1.5 }}
-          delay={2}
+          data-aos="zoom-in"
+          data-aos-duration="800"
         />
-        <p className="font-normal text-xl leading-normal lg:text-[32px] lg:leading-[38.40px]">
+        <p className="font-normal text-xl leading-normal lg:text-[32px] lg:leading-[38.40px]" >
           Competition of Outstanding Creativity and Exploration (CODE) 2024 is
           an extended abstract competition held by Student Research Group
           (K-RISMA) of the Computer Science Faculty at Brawijaya University.
