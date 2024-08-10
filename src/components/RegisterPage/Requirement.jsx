@@ -44,6 +44,7 @@ export default function Requirement() {
           className="font-bold tracking-wide text-3xl leading-[38.40px] md:text-5xl xl:text-6xl lg:leading-[72px]"
           data-aos="zoom-in"
           data-aos-duration="800"
+          data-aos-easing="ease-in-out"
         >
           Registrant Requirement
         </h1>
