@@ -3,9 +3,9 @@ import paperBlueLight from "../assets/cover/paperBlueLight.svg";
 
 const Award = () => {
   return (
-    <div className="bg-paper-blue-light w-full md:h-[60rem] h-auto my-36 lg:bg-cover bg-no-repeat self-stretch">
-      <div className="flex flex-col items-start justify-start md:justify-center md:items-center px-8 pt-16 md:px-24 md:pt-24">
-        <h1 className="font-MadeMirage text-4xl lg:text-6xl leading-[120%] text-primary-50 font-bold self-stretch">
+    <div className="bg-paper-blue-light-mobile lg:bg-paper-blue-light w-full my-36 bg-cover bg-no-repeat self-stretch">
+      <div className="flex flex-col items-start justify-start md:justify-center md:items-center px-8 pt-24 md:px-32 md:pt-32">
+        <h1 className="font-MadeMirage text-4xl lg:text-6xl leading-[120%] text-primary-50 font-bold self-stretch mt-4 lg:mt-12">
           Award of Participations
         </h1>
         <h6 className="font-MadeMirage text-base md:text-2xl lg:text-4xl font-medium leading-[120%] text-primary-50 self-stretch mb-6">
