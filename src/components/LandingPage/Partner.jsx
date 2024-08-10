@@ -10,7 +10,7 @@ import Partner8 from "../../assets/partner/Partner8.png";
 export default function Partner() {
   return (
     <section>
-      <div className="text-secondary-50 flex flex-col justify-between items-center mx-5 lg:mx-18">
+      <div className="text-secondary-50 flex flex-col justify-between items-center mx-5 lg:mx-18 mt-12" >
         <h1
           className="font-bold tracking-wide text-3xl leading-[38.40px] md:text-5xl xl:text-6xl lg:leading-[72px]"
           data-aos="zoom-in"
