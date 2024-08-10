@@ -8,13 +8,22 @@ import certificate from "../assets/award/certificate.svg";
 
 export default function Award() {
   return (
-    <section className="bg-paper-blue-light-mobile lg:bg-paper-blue-light w-full my-36 bg-cover bg-no-repeat">
-      <div className="mx-6 xl:mx-28 lg:mx-18">
-        <div className="flex flex-col text-primary-50 items-start lg:items-center">
-          <h1 className="font-MadeMirage text-4xl lg:text-6xl leading-[120%] font-bold mt-4 lg:mt-12">
+    <section className="bg-paper-blue-light-mobile lg:bg-paper-blue-light w-full bg-cover bg-no-repeat h-[1200px] md:h-[740px] lg:h-[1200px]">
+      <div className="mx-6 xl:mx-28 lg:mx-18 items-center flex-col pt-40">
+        <div className="flex flex-col text-primary-50 items-start lg:items-start">
+          <h1
+            className="font-MadeMirage text-4xl lg:text-6xl leading-[120%] font-bold mt-4 lg:mt-12"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+          >
             Award of Participations
           </h1>
-          <h6 className="font-MadeMirage text-base md:text-2xl lg:text-4xl font-medium leading-[120%] mb-6">
+          <h6
+            className="font-MadeMirage text-base md:text-2xl lg:text-4xl font-medium leading-[120%] mb-6"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            data-aos-easing="ease-out"
+          >
             Join the competition and win some great prizes!
           </h6>
         </div>
