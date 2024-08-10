@@ -1,5 +1,5 @@
 import React from "react";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 
 export default function WhatAbstract() {
   return (
@@ -30,15 +30,15 @@ export default function WhatAbstract() {
           <div className="flex justify-center lg:justify-start items-center gap-x-12 lg:gap-5">
             <a
               href="https://drive.google.com/drive/folders/15PghpvgzbzGSTqZBMyzbHdY1Er-kmIt3"
-              target="blank"
-              className="bg-primary-50 w-[9rem] h-[3rem] md:w-auto md:h-auto gap-2 rounded-[3.75rem] md:rounded-[4rem] text-secondary-90 text-center font-Metropolis leading-5 text-sm lg:text-md font-semibold md:py-2 lg:py-3 md:px-8 lg:px-16 flex justify-center items-center hover:bg-secondary-70 hover:text-primary-50"
+              target="_blank"
+              className="bg-primary-50 w-[9rem] h-[3rem] md:w-auto md:h-auto gap-2 rounded-[3.75rem] md:rounded-[4rem] text-secondary-90 text-center font-Metropolis leading-5 text-sm lg:text-md font-semibold md:py-2 lg:py-3 md:px-8 lg:px-16 flex justify-center items-center hover:bg-secondary-70 hover:text-primary-50 hover:border-primary-50 border border-transparent"
             >
               Guidebook
             </a>
             <a
               href="https://bit.ly/m/CODE2024"
-              target="blank"
-              className="bg-primary-50 w-[9rem] h-[3rem] md:w-auto md:h-auto gap-2 rounded-[3.75rem] md:rounded-[4rem] text-secondary-90 text-center font-Metropolis leading-5 text-sm lg:text-md font-semibold md:py-2 lg:py-3 md:px-8 lg:px-16 flex justify-center items-center hover:bg-secondary-70 hover:text-primary-50"
+              target="_blank"
+              className="bg-primary-50 w-[9rem] h-[3rem] md:w-auto md:h-auto gap-2 rounded-[3.75rem] md:rounded-[4rem] text-secondary-90 text-center font-Metropolis leading-5 text-sm lg:text-md font-semibold md:py-2 lg:py-3 md:px-8 lg:px-16 flex justify-center items-center hover:bg-secondary-70 hover:text-primary-50 hover:border-primary-50 border border-transparent"
             >
               Register Now
             </a>

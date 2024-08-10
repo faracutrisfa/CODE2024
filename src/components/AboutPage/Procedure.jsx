@@ -22,14 +22,13 @@ export default function Procedure() {
           There are 3 stages of CODE 2024
         </motion.h2>
         <div className="gap-9 flex flex-col lg:mt-20 mt-10">
-          <div className="border-4 border-secondary-50 rounded-[54px]">
+          <div className="border-4 border-secondary-50 rounded-[54px] transition-transform duration-300 ease-in-out hover:translate-y-[-10px]">
             <div className="border bg-secondary-50 text-primary-50 m-3 lg:m-5 rounded-[54px] p-10 lg:p-15 flex flex-col items-start text-start gap-4 lg:gap-0">
               <h2 className="font-bold text-xl leading-normal lg:text-4xl lg:leading-[48px]">
                 Team Registrations and Abstract Submission
               </h2>
               <div className="font-normal text-xs leading-[14px] lg:text-3xl lg:leading-[38.40px] flex flex-col gap-3 lg:gap-0">
                 <li>
-                  {" "}
                   Abstract submission are free of charge and team’s leader can
                   register and submit abstracts online via (
                   <span className="text-[#2ba6ff] underline">
@@ -47,7 +46,6 @@ export default function Procedure() {
                       href="https://drive.google.com/drive/folders/15PghpvgzbzGSTqZBMyzbHdY1Er-kmIt3"
                       target="blank"
                     >
-                      {" "}
                       guidebook
                     </a>
                   </span>
@@ -56,7 +54,7 @@ export default function Procedure() {
             </div>
           </div>
 
-          <div className="border-4 border-secondary-50 rounded-[54px]">
+          <div className="border-4 border-secondary-50 rounded-[54px] transition-transform duration-300 ease-in-out hover:translate-y-[-10px]">
             <div className="border bg-secondary-50 text-primary-50 m-3 lg:m-5 rounded-[54px] p-10 lg:p-15 flex flex-col items-start text-start gap-4 lg:gap-0">
               <h2 className="font-bold text-xl leading-normal lg:text-4xl lg:leading-[48px]">
                 Extended Abstract Submission
@@ -76,7 +74,7 @@ export default function Procedure() {
             </div>
           </div>
 
-          <div className="border-4 border-secondary-50 rounded-[54px]">
+          <div className="border-4 border-secondary-50 rounded-[54px] transition-transform duration-300 ease-in-out hover:translate-y-[-10px]">
             <div className="border bg-secondary-50 text-primary-50 m-3 lg:m-5 rounded-[54px] p-10 lg:p-15 flex flex-col items-start text-start gap-4 lg:gap-0">
               <h2 className="font-bold text-xl leading-normal lg:text-4xl lg:leading-[48px]">
                 Final Pitching
