@@ -5,19 +5,17 @@ export default function WhatAbstract() {
   return (
     <div
       className="relative flex items-start mt-36 bg-paper-blue-abstract-2 lg:bg-paper-blue-abstract bg-contain lg:bg-no-repeat bg-center w-full h-[36rem] lg:h-[60rem] lg:bg-cover"
-      // style={{
-      //   backgroundImage: `url(${abstract})`,
-      //   backgroundSize: "contain",
-      //   backgroundRepeat: "no-repeat",
-      //   width: "100%",
-      //   height: "100vh",
-      // }}
     >
       <div className="relative flex flex-col lg:flex-row items-center justify-evenly lg:justify-between w-full h-full px-4 lg:px-20">
         <div className="flex items-center"></div>
 
-        <div className="flex flex-col justify-center w-full lg:w-[48rem] h-screen text-primary-50">
-          <h1 className="leading-[3rem] lg:leading-[4rem] font-MadeMirage md:px-0 md:py-0 text-2xl text-justify md:text-4xl lg:text-6xl font-bold mb-4 lg:mb-8 flex justify-center md:text-center lg:justify-start flex-shrink-0 items-stretch">
+        <div className="flex flex-col justify-center w-full lg:w-[47rem] h-screen text-primary-50">
+          <h1
+            className="leading-[3rem] lg:leading-[4rem] font-MadeMirage md:px-0 md:py-0 text-2xl text-justify md:text-4xl lg:text-6xl font-bold mb-4 lg:mb-8 flex justify-center md:text-center lg:justify-start flex-shrink-0 items-stretch"
+            data-aos="zoom-in"
+            data-aos-duration="700"
+            data-aos-easing="ease-in-out"
+          >
             What Extended Abstract Is?
           </h1>
           <p className="font-Metropolis py-4 px-2 md:px-0 md:p-0 text-sm md:text-lg lg:text-xl font-medium leading-normal mb-12 lg:mb-16 items-stretch text-center lg:text-justify">
