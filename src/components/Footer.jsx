@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
     const handleLinkClick = () => {
-        window.scrollTo({ top: 0, behavior: "smooth" }); 
+        window.scrollTo({ top: 0, behavior: "smooth" });
     };
 
     return (
@@ -15,7 +15,8 @@ export default function Footer() {
                 <div className="flex flex-col items-center lg:items-start gap-7 lg:w-3/12 md:w-8/12">
                     <img src={Logo} alt="logo" />
                     <p className="text-base font-medium leading-tight font-Metropolis">
-                        Sustainable Technologies for a Better World: Global Collaboration in Innovation and Creativity to Achieve the SDGs
+                        Sustainable Technologies for an Enhanced World: Global Collaboration
+                        in Innovation and Creativity, Embracing AI to Achieve the SDGs
                     </p>
                 </div>
                 <ul>
