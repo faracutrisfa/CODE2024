@@ -75,8 +75,8 @@ export default function Theme() {
                 variants={itemVariants}
                 transition={{ duration: 0.8, ease: "easeInOut" }}
               >
-                Sustainable Technologies for a Better World: Global
-                Collaboration in Innovation and Creativity to Achieve the SDGs
+                Sustainable Technologies for an Enhanced World: Global Collaboration
+                in Innovation and Creativity, Embracing AI to Achieve the SDGs
               </motion.p>
             </motion.div>
             <img

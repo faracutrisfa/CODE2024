@@ -32,8 +32,8 @@ export default function Hero() {
               transition={{ type: "spring", stiffness: 25, duration: 1.5 }}
               delay={1}
             >
-              Sustainable Technologies for a Better World: Global Collaboration
-              in Innovation and Creativity to Achieve the SDGs
+              Sustainable Technologies for an Enhanced World: Global Collaboration
+              in Innovation and Creativity, Embracing AI to Achieve the SDGs
             </motion.p>
             <motion.a
               initial={{ x: -200, opacity: 0 }}
