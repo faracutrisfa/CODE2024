@@ -4,8 +4,8 @@ import bintangKiri from "../../assets/image/bintangKiri.png";
 import bintangKanan from "../../assets/image/bintangKanan.png";
 import topPath from "../../assets/image/topPathAbout.png";
 import subTheme from "../../assets/image/subTheme.svg";
-import satu from "../../assets/image/1.svg";
-import dua from "../../assets/image/2.svg";
+import satu from "../../assets/image/1.webp";
+import dua from "../../assets/image/2.webp";
 import tiga from "../../assets/image/3.svg";
 import empat from "../../assets/image/4.svg";
 import lima from "../../assets/image/5.svg";
@@ -125,7 +125,7 @@ export default function Theme() {
                 />
                 <motion.img
                   src={tiga}
-                  className="w-52 lg:w-64 xl:w-96 transition-transform duration-300 ease-in-out transform hover:scale-110"
+                  className="w-52 lg:w-64 xl:w-96 transition-transform duration-300 ease-in-out transform hover:scale-110 object-cover bg-no-repeat"
                   variants={imageVariants}
                   whileHover="hover"
                 />

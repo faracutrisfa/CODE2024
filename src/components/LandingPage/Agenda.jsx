@@ -1,9 +1,6 @@
 import React from "react";
-import paperBlue from "../../assets/cover/paperBlue.png";
 import Agenda1 from "../../assets/image/Agenda1.svg";
 import Agenda2 from "../../assets/image/Agenda2.svg";
-import layerRight from "../../assets/Timeline/Layer2Right.png";
-import layerLeft from "../../assets/Timeline/layer2Left.png";
 
 export default function Agenda() {
   return (

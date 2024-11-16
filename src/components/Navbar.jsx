@@ -7,7 +7,7 @@ import { IoMdInformationCircleOutline } from "react-icons/io";
 import { SlNote } from "react-icons/sl";
 import { IoChatboxOutline } from "react-icons/io5";
 import { GoQuestion } from "react-icons/go";
-import Logo from "../../public/Logo.svg";
+import Logo from "../assets/Logo.webp";
 
 export default function Navbar() {
     const [click, setClick] = useState(false);
@@ -32,13 +32,13 @@ export default function Navbar() {
     }, []);
 
     const handleLinkClick = () => {
-        setClick(false);
+        setClick(false)
         window.scrollTo({ top: 0, behavior: "smooth" }); 
     };
 
     return (
         <nav className={`px-5 lg:px-18 flex w-full top-0 items-center justify-between fixed duration-300 z-10 ${isScrolled ? "bg-primary-90" : "bg-primary-90"}`}>
-            <img src={Logo} alt="logo" />
+            <img src={Logo} className="w-20 h-auto" alt="logo" />
             <ul className="hidden lg:flex text-secondary-90 gap-18 lg:text-xl font-medium leading-normal">
                 <Link to="/" onClick={handleLinkClick}>
                     <li className={`${location.pathname === "/" ? "border-b-2 border-secondary-90" : ""}`}>Home</li>
